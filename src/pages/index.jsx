@@ -1,9 +1,9 @@
-import { Hello } from "@/components";
+import { Hero } from "@/components";
 
 export default function() {
   return (
     <>
-      <Hello />
+      <Hero />
     </>
   )
 }
