@@ -1,9 +1,9 @@
 import { Hello } from "@/components";
-
-export default function() {
+import Link from 'next/link'
+export default function () {
   return (
     <>
-      <Hello />
+      <Link href="/Cualquiercosa">Home</Link>
     </>
   )
 }
