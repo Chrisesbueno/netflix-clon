@@ -1,0 +1,76 @@
+.hero {
+  height: calc(100vh);
+  width: 100vw;
+  position: relative;
+}
+.hero .image {
+  width: 100vw;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+/* Content Hero */
+
+.contentHero {
+  position: absolute;
+  top: 12rem;
+  color: var(--white);
+  width: 550px;
+}
+.title > * {
+  font-size: 74px;
+  text-transform: uppercase;
+}
+.title h1 {
+  font-weight: 700;
+}
+.title p {
+  font-weight: 400;
+  margin-top: -2.5rem;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.top p {
+  font-size: 20px;
+  line-height: 37px;
+}
+.top img {
+  width: 18px;
+  height: 18px;
+}
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--white-smoke);
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.play,
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 3rem;
+  border-radius: var(--border);
+  font-weight: 500;
+  font-size: 18px;
+  gap: 0.3rem;
+}
+.play {
+  background-color: var(--white);
+  color: var(--black);
+}
+.play i {
+    font-size: 32px;
+}
+.info {
+  background-color: var(--white-soft);
+  color: var(--white);
+}

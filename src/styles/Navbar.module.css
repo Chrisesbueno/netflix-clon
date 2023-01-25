@@ -1,0 +1,38 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  flex: 1;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.left img {
+  width: 111px;
+  height: 30px;
+}
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+.menu a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white-smoke);
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
+}
