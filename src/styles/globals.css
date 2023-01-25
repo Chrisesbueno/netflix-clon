@@ -24,10 +24,12 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
   font-family: var(--font);
 }
+
 body {
   overflow-x: hidden;
 }
@@ -48,5 +50,9 @@ ul {
 }
 
 .header {
+  background-color: var(--black);
+}
+
+.footer {
   background-color: var(--black);
 }

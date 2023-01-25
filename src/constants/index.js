@@ -61,3 +61,81 @@ export const hero = {
         }
     }
 }
+export const footer = {
+    buttons: {
+        twitter: {
+            link: "www.twitter.com",
+            icon: "bx bxl-twitter"
+        },
+        facebook: {
+            link: "www.facebook.com",
+            icon: "bx bxl-facebook-square"
+        },
+        instagram: {
+            link: "www.instagram.com",
+            icon: "bx bxl-instagram"
+        },
+        youtube: {
+            link: "www.youtube.com",
+            icon: "bx bxl-youtube"
+        }
+    },
+    links: [
+        {
+            id: "footer-link-1",
+            title: "Descritive Audio",
+            link: "descriptive-auido",
+        },
+        {
+            id: "footer-link-2",
+            title: "Gift cards",
+            link: "gift-cards",
+        },
+        {
+            id: "footer-link-3",
+            title: "Press",
+            link: "press",
+        },
+        {
+            id: "footer-link-4",
+            title: "Investor Relations",
+            link: "investor-relations",
+        },
+        {
+            id: "footer-link-5",
+            title: "Employment",
+            link: "employment",
+        },
+        {
+            id: "footer-link-6",
+            title: "Terms of use",
+            link: "terms-of-use",
+        },
+        {
+            id: "footer-link-7",
+            title: "Privacy",
+            link: "privacy",
+        },
+        {
+            id: "footer-link-8",
+            title: "Legal notices",
+            link: "legal-notices",
+        },
+        {
+            id: "footer-link-9",
+            title: "Cookies preferences",
+            link: "cookies-preferences",
+        },
+        {
+            id: "footer-link-10",
+            title: "Corporative information",
+            link: "corporative-infomation",
+        },
+        {
+            id: "footer-link-11",
+            title: "Contact us",
+            link: "contact-us",
+        },
+
+    ]
+}
