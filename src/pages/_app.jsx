@@ -12,9 +12,7 @@ const App = ({ Component, pageProps }) => (
         rel="stylesheet"
       ></link>
     </Head>
-    <div className="header">
-      <Navbar />
-    </div>
+    <Navbar />
     <Component {...pageProps} />
   </>
 );

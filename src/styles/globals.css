@@ -14,7 +14,8 @@
   --red: #b9090b;
 
   /* Others */
-  --shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+  --shadow: inset 200px 400px 500px rgba(0, 0, 0, 0.2);
+  --shadow2: inset 100% 100% 100% rgba(0, 0, 0, 0.5);
   --border: 4px;
 
 }
@@ -27,6 +28,7 @@
 html {
   scroll-behavior: smooth;
   font-family: var(--font);
+  background-color: var(--black);
 }
 body {
   overflow-x: hidden;
@@ -47,6 +49,6 @@ ul {
   max-width: var(--max);
 }
 
-.header {
-  background-color: var(--black);
+.swiper-button-next, .swiper-button-prev {
+  color: var(--white) !important;
 }

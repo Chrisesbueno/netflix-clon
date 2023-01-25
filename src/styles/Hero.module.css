@@ -1,11 +1,13 @@
 .hero {
-  height: calc(100vh);
+  height: calc(100vh - 80px);
+  max-height: 900px;
   width: 100vw;
   position: relative;
 }
 .hero .image {
   width: 100vw;
-  max-height: 700px;
+  height: 85vh;
+  max-height: 900px;
   object-fit: cover;
 }
 
@@ -13,7 +15,7 @@
 
 .contentHero {
   position: absolute;
-  top: 12rem;
+  top: 10rem;
   color: var(--white);
   width: 550px;
 }
@@ -68,9 +70,17 @@
   color: var(--black);
 }
 .play i {
-    font-size: 32px;
+  font-size: 32px;
+}
+.info i {
+  font-size: 26px;
 }
 .info {
   background-color: var(--white-soft);
   color: var(--white);
 }
+
+.play:hover, .info:hover {
+  box-shadow: var(--shadow);
+}
+
