@@ -11,7 +11,7 @@ const Hero = () => {
         <ContentHero {...hero} />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
