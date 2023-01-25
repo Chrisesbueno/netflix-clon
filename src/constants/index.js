@@ -62,24 +62,29 @@ export const hero = {
   },
 };
 export const footer = {
-  buttons: {
-    twitter: {
-      link: "www.twitter.com",
-      icon: "bx bxl-twitter"
-    },
-    facebook: {
-      link: "www.facebook.com",
-      icon: "bx bxl-facebook-square"
-    },
-    instagram: {
-      link: "www.instagram.com",
-      icon: "bx bxl-instagram"
-    },
-    youtube: {
-      link: "www.youtube.com",
-      icon: "bx bxl-youtube"
-    }
-  },
+  buttons:
+    [
+      {
+        id:"btn-1",
+        link: "www.twitter.com",
+        icon: "bx bxl-twitter"
+      },
+      {
+        id:"btn-2",
+        link: "www.facebook.com",
+        icon: "bx bxl-facebook-square"
+      },
+      {
+        id:"btn-3",
+        link: "www.instagram.com",
+        icon: "bx bxl-instagram"
+      },
+      {
+        id:"btn-4",
+        link: "www.youtube.com",
+        icon: "bx bxl-youtube"
+      }
+    ],
   links: [
     {
       id: "footer-link-1",
