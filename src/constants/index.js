@@ -38,3 +38,26 @@ export const navbar = {
         },
     ]
 }
+
+export const hero = {
+    poster: All.Poster,
+    content: {
+        title: 'yanimda kal asas',
+        description: `Emir is a handsome, rich, successful man in his thirties. He was born into a family of workers and dedicated to study. He works day and night by putting everything in his life into the background. One of Turkey's most important investment bank has been working as an investment adviser at.`,
+        top: {
+            icon: All.Top10,
+            title: 'Number 4 Today'
+        }
+    },
+    key: 'andawSiawdaLK12KADAxa',
+    buttons: {
+        play: {
+            icon: 'bx bx-play',
+            title: 'Play'
+        },
+        info: {
+            icon: 'bx bx-info-circle',
+            title: 'More info'
+        }
+    }
+}
