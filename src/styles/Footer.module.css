@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+.footerContent {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.footer .links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .links div {
+    margin-bottom: 10px;
+    width: 33%;
+    height: 16px;
+    color: #808080;
+    font-size: 15px;
+}
+
+
+.socialButtons {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 0px;
+}
+
+.socialButtons .button {
+    margin-right: 10px;
+    color: #808080;
+    font-size: 40px;
+}
+
+.footer .copyRight {
+    color: #808080;
+    margin-top: 10px;
+    margin-bottom: 10;
+    font-size: 11px;
+}

@@ -1,0 +1,43 @@
+/* Cards */
+
+.recommend img {
+  width: 235px;
+  height: 130px;
+  border-radius: var(--border);
+  object-fit: contain;
+}
+
+.original img {
+  width: 215px;
+  height: 435px;
+  border-radius: var(--border);
+  object-fit: contain;
+}
+.trending .poster,
+.trending .top {
+  width: 125px;
+  height: 175px;
+  border-radius: var(--border);
+  object-fit: contain;
+}
+.trending .poster {
+  position: relative;
+  z-index: 2;
+}
+.trending .top {
+  position: relative;
+  left: 0.5rem;
+  z-index: 1;
+}
+.trending,
+.original,
+.recommend {
+  display: flex;
+  position: relative;
+}
+.trending img:hover,
+.original img:hover,
+.recommend img:hover {
+  z-index: 100;
+  background-color: var(--white-soft);
+}

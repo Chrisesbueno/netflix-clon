@@ -1,0 +1,14 @@
+/* Sliders */
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: -227px;
+}
+.slider h1 {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--white-smoke);
+  margin-bottom: 0.5rem;
+}
