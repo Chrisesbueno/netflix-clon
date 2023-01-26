@@ -398,7 +398,7 @@ export const slider = [
   },
   {
     key: "iadawdAHAWEDANKLAl_31",
-    id: "new",
+    id: "new2",
     space: 80,
     title: `What's new`,
     data: [
@@ -446,7 +446,7 @@ export const slider = [
   },
   {
     key: "iadawdAHAWEDANKLAl_31",
-    id: "popular",
+    id: "popular2",
     space: 80,
     title: "Popular on Netflix",
     data: [
@@ -493,6 +493,3 @@ export const slider = [
     ],
   },
 ];
-
-
-
