@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import { Hero, Slider } from "@/components";
 import { slider } from "@/constants";
 
-export default function () {
+export default function Home() {
   return (
     <>
       <Hero />
