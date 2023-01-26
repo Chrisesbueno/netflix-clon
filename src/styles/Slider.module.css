@@ -1,3 +1,4 @@
+
 /* Cards */
 
 .recommend img {
@@ -29,15 +30,30 @@
   left: 0.5rem;
   z-index: 1;
 }
-.trending,
-.original,
-.recommend {
-  display: flex;
+
+.trending, .recommend, .original {
   position: relative;
+  z-index: 1;
 }
-.trending img:hover,
-.original img:hover,
-.recommend img:hover {
-  z-index: 100;
-  background-color: var(--white-soft);
+
+/* Card Show */
+.swiper {
+  overflow: visible;
+  position: relative;
+  z-index: 1;
+}
+/* /* .slide {
+  position: relative;
+  z-index: 1;
+} */
+.slider {
+  position: relative;
+  z-index: 1;
+}
+
+.recommend:hover img {
+  position: absolute !important;
+  top: 0 !important;
+  z-index: 100 !important;
+  transform: scale(2.5);
 }

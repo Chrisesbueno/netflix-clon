@@ -1,12 +1,15 @@
 /* Sliders */
 
-.slider {
+.sliders {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin-top: -227px;
+  position: relative;
+  z-index: 1;
 }
-.slider h1 {
+
+.sliders h1 {
   font-weight: 500;
   font-size: 22px;
   color: var(--white-smoke);
