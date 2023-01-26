@@ -62,24 +62,29 @@ export const hero = {
   },
 };
 export const footer = {
-  buttons: {
-    twitter: {
-      link: "www.twitter.com",
-      icon: "bx bxl-twitter"
-    },
-    facebook: {
-      link: "www.facebook.com",
-      icon: "bx bxl-facebook-square"
-    },
-    instagram: {
-      link: "www.instagram.com",
-      icon: "bx bxl-instagram"
-    },
-    youtube: {
-      link: "www.youtube.com",
-      icon: "bx bxl-youtube"
-    }
-  },
+  buttons:
+    [
+      {
+        id: "btn-1",
+        link: "www.twitter.com",
+        icon: "bx bxl-twitter"
+      },
+      {
+        id: "btn-2",
+        link: "www.facebook.com",
+        icon: "bx bxl-facebook-square"
+      },
+      {
+        id: "btn-3",
+        link: "www.instagram.com",
+        icon: "bx bxl-instagram"
+      },
+      {
+        id: "btn-4",
+        link: "www.youtube.com",
+        icon: "bx bxl-youtube"
+      }
+    ],
   links: [
     {
       id: "footer-link-1",
@@ -393,7 +398,7 @@ export const slider = [
   },
   {
     key: "iadawdAHAWEDANKLAl_31",
-    id: "new",
+    id: "new2",
     space: 80,
     title: `What's new`,
     data: [
@@ -441,7 +446,7 @@ export const slider = [
   },
   {
     key: "iadawdAHAWEDANKLAl_31",
-    id: "popular",
+    id: "popular2",
     space: 80,
     title: "Popular on Netflix",
     data: [
@@ -489,5 +494,36 @@ export const slider = [
   },
 ];
 
+export const faq = {
+  title: "Frequent questions",
+  questions: [
+    {
+      id: "q-1",
+      title: "What is Netflix?",
+      answer: "Netflix is ​​a streaming service that offers a wide variety of award-winning movies, series and documentaries on almost any screen connected to the Internet."
+    },
+    {
+      id: "q-2",
+      title: "How much does netflix cost?",
+      answer: "Enjoy Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one flat monthly fee. Plans from $16,900 to $38,900 per month. No additional costs or contracts."
+    },
+    {
+      id: "q-3",
+      title: "Where can I watch netflix?",
+      answer: "Enjoy where you want, when you want. Sign in to your Netflix account to watch content instantly via netflix.com from your personal computer or any internet-connected device that has the Netflix app, including smart TVs, smartphones, tablets, media players, and game consoles of games."
+    },
 
+  ]
+}
 
+export const emailForm = {
+  title: "Do you want to watch Netflix now? Enter your email to create an account or restart your Netflix membership.",
+  label: {
+    error: "invalid email",
+    placeHolder: "Email"
+  },
+  button: {
+    text: "Start",
+    icon: "bx bx-chevron-right"
+  },
+}

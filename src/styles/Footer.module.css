@@ -1,28 +1,28 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
+    margin-top: 2rem;
+    border-top: 1px solid var(--white-soft);
+    width: 100vw;
+  
 }
 
 
 .footerContent {
-    padding-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
     padding-bottom: 100px;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    
 }
 
 .footer .links {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
 }
 
 .footer .links div {
-    margin-bottom: 10px;
-    width: 33%;
-    height: 16px;
     color: #808080;
     font-size: 15px;
 }
@@ -30,19 +30,18 @@
 
 .socialButtons {
     display: flex;
-    flex-direction: row;
-    padding: 10px 10px 10px 0px;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .socialButtons .button {
-    margin-right: 10px;
     color: #808080;
     font-size: 40px;
 }
 
 .footer .copyRight {
     color: #808080;
-    margin-top: 10px;
+    margin-top: 2rem;
     margin-bottom: 10;
     font-size: 11px;
 }

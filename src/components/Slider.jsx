@@ -19,6 +19,7 @@ const Slider = ({ data, title, card, space=80 }) => {
           simulateTouch={true}
           grabCursor={true}
           navigation={true}
+          className={styles.swiper}
         >
           {data.map((item) => (
             <SwiperSlide key={item.id} className={styles.slide}>
