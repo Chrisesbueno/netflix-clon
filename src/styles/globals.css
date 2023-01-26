@@ -54,3 +54,8 @@ ul {
 .swiper-button-next, .swiper-button-prev {
   color: var(--white) !important;
 }
+.swiper-backface-hidden .swiper-slide {
+  position: relative !important;
+  z-index: 1 !important;
+  backface-visibility: visible !important;
+}

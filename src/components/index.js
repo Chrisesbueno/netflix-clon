@@ -8,3 +8,5 @@ export { default as TrendingCard } from './TrendingCard';
 export { default as Hero } from './Hero';
 export { default as ContentHero } from './ContentHero';
 export { default as Login } from './Login';
+export { default as FAQ } from './FAQ';
+export { default as OurStory } from './OurStory';
